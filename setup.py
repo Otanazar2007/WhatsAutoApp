@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='WhatAutoApp',
+    name='WhatsAutoApp',
     version='0.1.0',
     author='Otanazar2007',
     author_email='kakojtocel13@gmail.com',
