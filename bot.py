@@ -13,7 +13,7 @@ def start(message):
 def check_pass(message):
     user_id = message.from_user.id
     password = message.text
-    if password == 'moneytravel1':
+    if password == "your password':
         bot.send_message(user_id, 'Добро пожаловать', reply_markup= main_menu())
     else:
         bot.send_message(user_id, 'Пароль не правильный')
